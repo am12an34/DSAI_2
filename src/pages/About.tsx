@@ -34,7 +34,7 @@ const About = () => {
 
             <div className="glass-card rounded-xl overflow-hidden animate-fade-in animate-delay-200">
               <img
-                src="/public/assets/backImages/IMG_4255.jpg"
+                src="/assets/backImages/IMG_4255.jpg"
                 alt="DSAI Club Team"
                 className="w-full h-auto"
               />
