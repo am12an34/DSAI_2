@@ -392,7 +392,7 @@ const Team = () => {
             />
 
             <Button asChild className="bg-dsai-green hover:bg-dsai-green-light text-black font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-dsai-green/20">
-              <a href="mailto:join@dsaiclub.com">Apply Now</a>
+              <a href="mailto:officialdatascienceaiclub.nita@gmail.com">Apply Now</a>
             </Button>
 
             <div className="absolute -z-10 inset-0 overflow-hidden">
