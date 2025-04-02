@@ -170,7 +170,7 @@ const About = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-24 parallax-section" style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/public/assets/backImages/IMG_4311.jpg')" }}>
+      <section className="py-24 parallax-section" style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/backImages/IMG_4311.jpg')" }}>
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-fade-in">Be Part of Our Journey</h2>
           <p className="text-lg text-gray-300 mb-10 max-w-2xl mx-auto animate-fade-in animate-delay-100">
