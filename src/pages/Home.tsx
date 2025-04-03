@@ -353,7 +353,7 @@ const Home = () => {
             <div className="transform-gpu transition-all duration-500 hover:-translate-y-2 hover:z-10">
               <EventCard
                 title="Tech Talk: The Future of AI Ethics"
-                date="May 20, 2025"
+                date="May 20, 2023"
                 time="3:00 PM - 5:00 PM"
                 location="Auditorium, NIT Agartala"
                 description="An engaging discussion on AI ethics and responsible AI development, featuring renowned experts from academia and industry."
