@@ -3,10 +3,11 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import SectionHeading from '@/components/SectionHeading';
 import ProjectCard from '@/components/ProjectCard';
+import SplashCursor from '../SplashCursor'
 
 const projects = [
   {
-    "id": 1,
+    "id": 0,
     "title": "Face Recognition",
     "description": "A facial recognition system that detects and analyzes live facial recordings to determine a person's mood based on expressions and gestures. It can be used for sentiment analysis, security authentication, and personalized user experiences.",
     "imageSrc": "https://img.freepik.com/free-photo/facial-recognition-collage-concept_23-2150038886.jpg?t=st=1743115390~exp=1743118990~hmac=261b82cf9d763786b366816d0d55d8b773ea9a9fb255bf60cb696c5c116adaba&w=1380",
@@ -15,6 +16,27 @@ const projects = [
     "githubLink": "https://github.com/example/face-recognition",
     "demoLink": "https://example.com/face-recognition-demo"
   },
+  {
+    "id": 1,
+    "title": "Book Recommender",
+    "description": "An AI-powered book recommendation system that suggests books based on user preferences, reading history, and genre interests. It utilizes machine learning and collaborative filtering to provide personalized book recommendations.",
+    "imageSrc": "https://images.pexels.com/photos/16380906/pexels-photo-16380906/free-photo-of-webpage-of-ai-chatbot-a-prototype-ai-smith-open-chatbot-is-seen-on-the-website-of-openai-on-a-apple-smartphone-examples-capabilities-and-limitations-are-shown.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "tags": ["Machine Learning", "Recommender System", "Clustering Algorithm", "Unsupervised Learning"],
+    "category": "recommendation-system",
+    "githubLink": "https://github.com/example/book-recommender",
+    "demoLink": "https://example.com/book-recommender-demo"
+  },
+  {
+    "id": 1.2,
+    "title": "Next Word Predictor using LSTM",
+    "description": "An AI-based text prediction system that uses an LSTM (Long Short-Term Memory) neural network to predict the next word in a given sentence. It is trained on large text datasets to improve accuracy and contextual understanding.",
+    "imageSrc": "https://images.pexels.com/photos/6964149/pexels-photo-6964149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "tags": ["Deep Learning", "LSTM", "Natural Language Processing", "AI"],
+    "category": "natural-language-processing",
+    "githubLink": "https://github.com/D-i-vyansh/next-word/tree/main/next_word",
+    "demoLink": ""
+  },
+
   {
     "id": 2,
     "title": "Sky Saving Pro",
@@ -53,7 +75,7 @@ const projects = [
     "tags": ["Creative Coding", "AI", "Gesture Recognition", "Computer Vision"],
     "category": "interactive-art",
     "githubLink": "https://github.com/example/world-revolves",
-    "demoLink": "https://example.com/world-revolves-demo"
+    "demoLink": "https://jgyasu.github.io/the-world-revolves-around-you/"
   },
   {
     "id": 6,
@@ -62,7 +84,7 @@ const projects = [
     "imageSrc": "https://images.pexels.com/photos/106341/pexels-photo-106341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ["AI", "Content Generation", "SEO", "NLP"],
     "category": "content-automation",
-    "githubLink": "https://github.com/example/seo-blog-generator",
+    "githubLink": "https://github.com/jgyasu/the-world-revolves-around-you",
     "demoLink": "https://example.com/seo-blog-generator-demo"
   },
   {
@@ -82,8 +104,8 @@ const projects = [
     "imageSrc": "https://images.pexels.com/photos/539856/pexels-photo-539856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ["Machine Learning", "Agriculture", "Data Science", "Python"],
     "category": "machine-learning",
-    "githubLink": "https://github.com/example/crop-yield-prediction",
-    "demoLink": "https://example.com/crop-yield-prediction-demo"
+    "githubLink": "https://github.com/yogeshsingh360/crop_yield",
+    "demoLink": "https://crop-yield-predict.onrender.com/"
   }
 ]
 
@@ -99,12 +121,14 @@ const categories = [
 const Innovations = () => {
   const [activeCategory, setActiveCategory] = useState('all');
 
-  const filteredProjects = activeCategory === 'all' 
-    ? projects 
+  const filteredProjects = activeCategory === 'all'
+    ? projects
     : projects.filter(project => project.category === activeCategory);
 
   return (
     <div className="min-h-screen pt-24 pb-24">
+      <SplashCursor />
+
       <div className="container mx-auto px-6">
         <SectionHeading
           subtitle="Our Research & Development"
@@ -119,8 +143,8 @@ const Innovations = () => {
                 key={category.id}
                 variant={activeCategory === category.id ? 'default' : 'outline'}
                 className={
-                  activeCategory === category.id 
-                    ? 'bg-dsai-green text-black' 
+                  activeCategory === category.id
+                    ? 'bg-dsai-green text-black'
                     : 'border-gray-700 text-gray-300 hover:border-dsai-green hover:text-black'
                 }
                 onClick={() => setActiveCategory(category.id)}
@@ -144,13 +168,13 @@ const Innovations = () => {
             />
           ))}
         </div>
-        
+
         {filteredProjects.length === 0 && (
           <div className="text-center py-16">
             <p className="text-gray-400 text-lg">No projects found in this category.</p>
           </div>
         )}
-        
+
         <div className="mt-16 text-center">
           <SectionHeading
             title="Start Your Own Project"
@@ -158,7 +182,7 @@ const Innovations = () => {
             align="center"
             className="mb-8"
           />
-          
+
           <Button asChild className="bg-dsai-green hover:bg-dsai-green-light text-black font-semibold transition-all">
             <a href="mailto:info@dsaiclub.com">Propose a Project</a>
           </Button>
