@@ -15,7 +15,7 @@ const teamMembers = [
     email: "divyanshsinghal067@gmail.com",
     linkedin: "https://www.linkedin.com/in/divyansh-singhal-b82aa9248",
     github: "https://github.com/D-i-vyansh",
-    image: "/public/assets/teamMembers/divyansh.jpg"
+    image: "/assets/teamMembers/divyansh.jpg"
   },
   {
     name: "Jigyasu Krishnan",
@@ -25,7 +25,7 @@ const teamMembers = [
     email: "jigyasu@outlook.in",
     linkedin: "https://www.linkedin.com/in/jgyasu/",
     github: "",
-    image: "/public/assets/teamMembers/jigyasu.jpeg",
+    image: "/assets/teamMembers/jigyasu.jpeg",
   },
   {
     name: "Parmesh Lata",
@@ -35,7 +35,7 @@ const teamMembers = [
     email: "lataayush6@gmail.com",
     linkedin: "https://www.linkedin.com/in/parmesh-lata",
     github: "https://github.com/ParmeshLata",
-    image: "/public/assets/teamMembers/pramesh.jpg"
+    image: "/assets/teamMembers/pramesh.jpg"
   },
 
   // Leads
@@ -46,7 +46,7 @@ const teamMembers = [
     category: "core",
     email: "sm2614592@gmail.com ",
     linkedin: "https://www.linkedin.com/in/meenaamit25",
-    image: "/public/assets/teamMembers/amit.jpeg"
+    image: "/assets/teamMembers/amit.jpeg"
   },
   {
     name: "Amitabh Anand",
@@ -56,7 +56,7 @@ const teamMembers = [
     email: "amitabhan111@gmail.com",
     linkedin: "https://www.linkedin.com/in/amitabh~anand",
     github: "",
-    image: "/public/assets/teamMembers/amitabh.jpg"
+    image: "/assets/teamMembers/amitabh.jpg"
   },
   {
     name: "Vishal Deep",
@@ -76,7 +76,7 @@ const teamMembers = [
     email: "pratyush.baliarsingh2004@gmail.com",
     linkedin: "https://www.linkedin.com/in/pratyush-baliarsingh/",
     github: "https://github.com/pratycodes",
-    image: "/public/assets/teamMembers/pratush.png"
+    image: "/assets/teamMembers/pratush.png"
   },
   {
     name: "Shubham Kumar",
@@ -86,7 +86,7 @@ const teamMembers = [
     email: "shubhkr1320@gmail.com",
     linkedin: "https://www.linkedin.com/in/shubham-sebrin",
     github: "",
-    image: "/public/assets/teamMembers/shubham.jpg"
+    image: "/assets/teamMembers/shubham.jpg"
   },
   {
     name: "Anand Singh",
@@ -96,7 +96,7 @@ const teamMembers = [
     email: "anandsingh.as1996@gmail.com",
     linkedin: "https://www.linkedin.com/in/anand-singh-20102-/",
     github: "https://github.com/Pinaka07",
-    image: "/public/assets/teamMembers/anand.jpeg"
+    image: "/assets/teamMembers/anand.jpeg"
   },
   {
     name: "Swayam Verma",
@@ -106,7 +106,7 @@ const teamMembers = [
     email: "vermaswayam1.nita@gmail.com",
     linkedin: "https://www.linkedin.com/in/swayam-verma-",
     github: "",
-    image: "/public/assets/teamMembers/swayam.jpg"
+    image: "/assets/teamMembers/swayam.jpg"
   },
 
   // Event Management
@@ -118,7 +118,7 @@ const teamMembers = [
     email: "vidhi42004@gmail.com",
     linkedin: "https://www.linkedin.com/in/vidhi-mittal04",
     github: "",
-    image: "/public/assets/teamMembers/vidhi.jpg"
+    image: "/assets/teamMembers/vidhi.jpg"
   },
   {
     name: "Manish Kumar",
@@ -128,7 +128,7 @@ const teamMembers = [
     email: "manishmahi2104maa@gmail.com",
     linkedin: "www.linkedin.com/in/manish-kumar-a78329290",
     github: "https://github.com/ManishKumar081",
-    image: "/public/assets/teamMembers/manish.jpg"
+    image: "/assets/teamMembers/manish.jpg"
   },
   {
     name: "Reddy Eswar Anush",
@@ -138,7 +138,7 @@ const teamMembers = [
     email: "eswaranushreddy@gmail.com",
     linkedin: "https://www.linkedin.com/in/reddy-eswar/",
     github: "https://github.com/reddyeswaranush",
-    image: "/public/assets/teamMembers/eswar.jpeg"
+    image: "/assets/teamMembers/eswar.jpeg"
   },
 
   // Team Members
@@ -150,7 +150,7 @@ const teamMembers = [
     email: "vishakha7639@gmail.com",
     linkedin: "https://www.linkedin.com/in/vishakha-rao-126313235",
     github: "https://github.com/VishakhaRao18/virtual-robo",
-    image: "/public/assets/teamMembers/vishkha.jpg"
+    image: "/assets/teamMembers/vishkha.jpg"
   },
   {
     name: "Ritika Raj",
@@ -160,7 +160,7 @@ const teamMembers = [
     email: "ritikaraj0601@gmail.com",
     linkedin: "https://www.linkedin.com/in/ritikaraj0106",
     github: "https://github.com/Rit0106",
-    image: "/public/assets/teamMembers/ritika.jpg"
+    image: "/assets/teamMembers/ritika.jpg"
   },
   {
     name: "Antareep Roy",
@@ -170,7 +170,7 @@ const teamMembers = [
     email: "rantareep2@gmail.com",
     linkedin: "https://www.linkedin.com/in/antareep-roy-182a74195/",
     github: "https://github.com/user-anto",
-    image: "/public/assets/teamMembers/antreep.jpg"
+    image: "/assets/teamMembers/antreep.jpg"
   },
 
   // Members
@@ -182,7 +182,7 @@ const teamMembers = [
     email: "yogeshrajputsingh000@gmail.com",
     linkedin: "https://www.linkedin.com/in/yogesh-singh-285b46218",
     github: "https://github.com/yogeshsingh360",
-    image: "/public/assets/teamMembers/yogesh.jpg"
+    image: "/assets/teamMembers/yogesh.jpg"
   },
   {
     name: "Subhasish Saha",
@@ -192,7 +192,7 @@ const teamMembers = [
     email: "subhasishs111@gmail.com",
     linkedin: "https://www.linkedin.com/in/subhasish-saha-8b426b28a",
     github: "",
-    image: "/public/assets/teamMembers/subhasish.jpg"
+    image: "/assets/teamMembers/subhasish.jpg"
   },
   
   {
@@ -203,7 +203,7 @@ const teamMembers = [
     email: "a.anuradhakgloc027@gmail.com",
     linkedin: "https://www.linkedin.com/in/anuradha-kumari-348179317/",
     github: "https://github.com/anuradha081",
-    image: "/public/assets/teamMembers/anuradha.png"
+    image: "/assets/teamMembers/anuradha.png"
   },
   {
     name: "Jarupula Sony",
@@ -213,14 +213,14 @@ const teamMembers = [
     email: "jarupulasony81@gmail.com",
     linkedin: "https://www.linkedin.com/in/sony-jarupula-8ba1832a7/",
     github: "https://github.com/SONY123n",
-    image: "/public/assets/teamMembers/sony.jpg"
+    image: "/assets/teamMembers/sony.jpg"
   },
   {
     id: '23xyxy',
     name: "Kumar Gaurav",
     role: "Team Member",
     category: "technical",
-    image: "/public/assets/teamMembers/gaurav.jpeg", 
+    image: "/assets/teamMembers/gaurav.jpeg", 
     linkedin: "#",
     twitter: "#",
     github: "#",
