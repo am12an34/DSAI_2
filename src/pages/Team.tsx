@@ -15,7 +15,7 @@ const teamMembers = [
     email: "divyanshsinghal067@gmail.com",
     linkedin: "https://www.linkedin.com/in/divyansh-singhal-b82aa9248",
     github: "https://github.com/D-i-vyansh",
-    image: "/assets/teamMembers/divyansh.jpg"
+    image: "/public/assets/teamMembers/divyansh.jpg"
   },
   {
     name: "Jigyasu Krishnan",
@@ -25,7 +25,7 @@ const teamMembers = [
     email: "jigyasu@outlook.in",
     linkedin: "https://www.linkedin.com/in/jgyasu/",
     github: "",
-    image: "/assets/teamMembers/jigyasu.jpeg",
+    image: "/public/assets/teamMembers/jigyasu.jpeg",
   },
   {
     name: "Parmesh Lata",
@@ -35,7 +35,7 @@ const teamMembers = [
     email: "lataayush6@gmail.com",
     linkedin: "https://www.linkedin.com/in/parmesh-lata",
     github: "https://github.com/ParmeshLata",
-    image: "/assets/teamMembers/pramesh.jpg"
+    image: "/public/assets/teamMembers/pramesh.jpg"
   },
 
   // Leads
@@ -46,7 +46,7 @@ const teamMembers = [
     category: "core",
     email: "sm2614592@gmail.com ",
     linkedin: "https://www.linkedin.com/in/meenaamit25",
-    image: "/assets/teamMembers/amit.jpeg"
+    image: "/public/assets/teamMembers/amit.jpeg"
   },
   {
     name: "Amitabh Anand",
@@ -56,7 +56,7 @@ const teamMembers = [
     email: "amitabhan111@gmail.com",
     linkedin: "https://www.linkedin.com/in/amitabh~anand",
     github: "",
-    image: "/assets/teamMembers/amitabh.jpg"
+    image: "/public/assets/teamMembers/amitabh.jpg"
   },
   {
     name: "Vishal Deep",
@@ -76,27 +76,37 @@ const teamMembers = [
     email: "pratyush.baliarsingh2004@gmail.com",
     linkedin: "https://www.linkedin.com/in/pratyush-baliarsingh/",
     github: "https://github.com/pratycodes",
-    image: "/assets/teamMembers/pratush.png"
+    image: "/public/assets/teamMembers/pratush.png"
   },
   {
     name: "Shubham Kumar",
     id: "23UCS119",
-    role: "Team Lead (Dynamo)",
+    role: "Team Lead (Turing Complete)",
     category: "core",
     email: "shubhkr1320@gmail.com",
     linkedin: "https://www.linkedin.com/in/shubham-sebrin",
     github: "",
-    image: "/assets/teamMembers/shubham.jpg"
+    image: "/public/assets/teamMembers/shubham.jpg"
   },
   {
     name: "Anand Singh",
     id: "23UEC127",
-    role: "Team Lead (Neural Nexus)",
+    role: "Team Lead (Dynamo)",
     category: "core",
     email: "anandsingh.as1996@gmail.com",
     linkedin: "https://www.linkedin.com/in/anand-singh-20102-/",
     github: "https://github.com/Pinaka07",
-    image: "/assets/teamMembers/anand.jpeg"
+    image: "/public/assets/teamMembers/anand.jpeg"
+  },
+  {
+    name: "Swayam Verma",
+    id: "23DTMA023",
+    role: "Team Lead (Neural Nexus)",
+    category: "core",
+    email: "vermaswayam1.nita@gmail.com",
+    linkedin: "https://www.linkedin.com/in/swayam-verma-",
+    github: "",
+    image: "/public/assets/teamMembers/swayam.jpg"
   },
 
   // Event Management
@@ -108,7 +118,27 @@ const teamMembers = [
     email: "vidhi42004@gmail.com",
     linkedin: "https://www.linkedin.com/in/vidhi-mittal04",
     github: "",
-    image: "/assets/teamMembers/vidhi.jpg"
+    image: "/public/assets/teamMembers/vidhi.jpg"
+  },
+  {
+    name: "Manish Kumar",
+    id: "23UCS081",
+    role: "Team Member",
+    category: "technical",
+    email: "manishmahi2104maa@gmail.com",
+    linkedin: "www.linkedin.com/in/manish-kumar-a78329290",
+    github: "https://github.com/ManishKumar081",
+    image: "/public/assets/teamMembers/manish.jpg"
+  },
+  {
+    name: "Reddy Eswar Anush",
+    id: "23UCS173",
+    role: "Team Member",
+    category: "technical",
+    email: "eswaranushreddy@gmail.com",
+    linkedin: "https://www.linkedin.com/in/reddy-eswar/",
+    github: "https://github.com/reddyeswaranush",
+    image: "/public/assets/teamMembers/eswar.jpeg"
   },
 
   // Team Members
@@ -120,7 +150,7 @@ const teamMembers = [
     email: "vishakha7639@gmail.com",
     linkedin: "https://www.linkedin.com/in/vishakha-rao-126313235",
     github: "https://github.com/VishakhaRao18/virtual-robo",
-    image: "/assets/teamMembers/vishkha.jpg"
+    image: "/public/assets/teamMembers/vishkha.jpg"
   },
   {
     name: "Ritika Raj",
@@ -130,7 +160,7 @@ const teamMembers = [
     email: "ritikaraj0601@gmail.com",
     linkedin: "https://www.linkedin.com/in/ritikaraj0106",
     github: "https://github.com/Rit0106",
-    image: "/assets/teamMembers/ritika.jpg"
+    image: "/public/assets/teamMembers/ritika.jpg"
   },
   {
     name: "Antareep Roy",
@@ -140,7 +170,7 @@ const teamMembers = [
     email: "rantareep2@gmail.com",
     linkedin: "https://www.linkedin.com/in/antareep-roy-182a74195/",
     github: "https://github.com/user-anto",
-    image: "/assets/teamMembers/antreep.jpg"
+    image: "/public/assets/teamMembers/antreep.jpg"
   },
 
   // Members
@@ -152,7 +182,7 @@ const teamMembers = [
     email: "yogeshrajputsingh000@gmail.com",
     linkedin: "https://www.linkedin.com/in/yogesh-singh-285b46218",
     github: "https://github.com/yogeshsingh360",
-    image: "/assets/teamMembers/yogesh.jpg"
+    image: "/public/assets/teamMembers/yogesh.jpg"
   },
   {
     name: "Subhasish Saha",
@@ -162,18 +192,9 @@ const teamMembers = [
     email: "subhasishs111@gmail.com",
     linkedin: "https://www.linkedin.com/in/subhasish-saha-8b426b28a",
     github: "",
-    image: "/assets/teamMembers/subhasish.jpg"
+    image: "/public/assets/teamMembers/subhasish.jpg"
   },
-  {
-    name: "Swayam Verma",
-    id: "23DTMA023",
-    role: "Team Member",
-    category: "technical",
-    email: "vermaswayam1.nita@gmail.com",
-    linkedin: "https://www.linkedin.com/in/swayam-verma-",
-    github: "",
-    image: "/assets/teamMembers/swayam.jpg"
-  },
+  
   {
     name: "Anuradha Kumari",
     id: "23UEI154",
@@ -182,7 +203,7 @@ const teamMembers = [
     email: "a.anuradhakgloc027@gmail.com",
     linkedin: "https://www.linkedin.com/in/anuradha-kumari-348179317/",
     github: "https://github.com/anuradha081",
-    image: "/assets/teamMembers/anuradha.png"
+    image: "/public/assets/teamMembers/anuradha.png"
   },
   {
     name: "Jarupula Sony",
@@ -192,14 +213,14 @@ const teamMembers = [
     email: "jarupulasony81@gmail.com",
     linkedin: "https://www.linkedin.com/in/sony-jarupula-8ba1832a7/",
     github: "https://github.com/SONY123n",
-    image: "/assets/teamMembers/sony.jpg"
+    image: "/public/assets/teamMembers/sony.jpg"
   },
   {
     id: '23xyxy',
     name: "Kumar Gaurav",
     role: "Team Member",
     category: "technical",
-    image: "/assets/teamMembers/gaurav.jpeg", 
+    image: "/public/assets/teamMembers/gaurav.jpeg", 
     linkedin: "#",
     twitter: "#",
     github: "#",
@@ -392,7 +413,7 @@ const Team = () => {
             />
 
             <Button asChild className="bg-dsai-green hover:bg-dsai-green-light text-black font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-dsai-green/20">
-              <a href="mailto:officialdatascienceaiclub.nita@gmail.com">Apply Now</a>
+              <a href="mailto:join@dsaiclub.com">Apply Now</a>
             </Button>
 
             <div className="absolute -z-10 inset-0 overflow-hidden">
