@@ -75,7 +75,7 @@ const Footer = () => {
               aria-label="Visit Aman Mishra's Instagram"
             >
               AMAN MISHRA
-            </span> | DSAI
+            </span> ( DSAI )
           </p>
 
         </div>
