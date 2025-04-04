@@ -3,12 +3,10 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
-import SplashCursor from '../SplashCursor'
 
 const About = () => {
   return (
     <div className="min-h-screen pt-24 pb-24">
-            <SplashCursor />
 
       {/* Hero Section */}
       <section className="py-16">
