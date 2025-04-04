@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import SectionHeading from '@/components/SectionHeading';
 import ProjectCard from '@/components/ProjectCard';
-import SplashCursor from '../SplashCursor'
 
 const projects = [
   {
@@ -127,7 +126,6 @@ const Innovations = () => {
 
   return (
     <div className="min-h-screen pt-24 pb-24">
-      <SplashCursor />
 
       <div className="container mx-auto px-6">
         <SectionHeading
