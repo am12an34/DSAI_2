@@ -69,6 +69,16 @@ const teamMembers = [
     image: "https://anarcnita.in/img/active_team/Vishal%20Deep.jpeg"
   },
   {
+    name: "Devanik Debnath",
+    id: "23DTMA025",
+    role: "Financial Lead",
+    category: "core",
+    email: " devanik2005@gmail.com",
+    linkedin: "https://www.linkedin.com/in/devanik",
+    github: "https://github.com/Devanik21",
+    image: "/assets/teamMembers/devanik.jpeg"
+  },
+  {
     name: "Pratyush Baliarsingh",
     id: "23DTMA027",
     role: "Team Lead (Quantfy)",
