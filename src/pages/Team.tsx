@@ -71,7 +71,7 @@ const teamMembers = [
   {
     name: "Devanik Debnath",
     id: "23DTMA025",
-    role: "Senior Team Member",
+    role: "Technical Lead",
     category: "core",
     email: " devanik2005@gmail.com",
     linkedin: "https://www.linkedin.com/in/devanik",
