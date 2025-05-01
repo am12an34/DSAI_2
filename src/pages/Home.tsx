@@ -333,7 +333,7 @@ const Home = () => {
                 title="AI & Machine Learning Bootcamp"
                 date="April 10, 2025"
                 time="10:00 AM - 4:00 PM"
-                location="Innovation Hub, NIT Agartala"
+                location="NIT Agartala"
                 description="A hands-on session covering AI fundamentals, model training, and deployment techniques using Python, TensorFlow, and FastAPI."
                 imageSrc="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3"
               />
@@ -344,7 +344,7 @@ const Home = () => {
                 title="Data Science Hackathon"
                 date="May 5, 2025"
                 time="9:00 AM - 6:00 PM"
-                location="Computer Science Block, NIT Agartala"
+                location="NIT Agartala"
                 description="Put your data skills to the test in this thrilling hackathon! Work with real-world datasets and build impactful solutions."
                 imageSrc="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3"
               />
